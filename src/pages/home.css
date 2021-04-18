@@ -1,0 +1,40 @@
+
+.homeContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem 2rem;
+    
+}
+.homeContainer a{
+    color:blue;
+    font-weight: 900;
+}
+.homeContainer h1{
+    text-align: center;
+}
+.description{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem 2rem;
+    
+}
+.description p{
+    max-width: 900px;
+   
+}
+.homeContainer{
+    margin-left: 2rem;
+}
+
+.description div{
+max-width: 30rem;
+}
+
+.description div>img{
+    width: 100%;
+    
+    border: 5px solid blue;
+border-radius: 10%;
+}
