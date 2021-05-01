@@ -1,5 +1,5 @@
-// const { REACT_APP_APIKEY } = process.env;
-const { APIKEY } = process.env;
+const { REACT_APP_APIKEY, APIKEY } = process.env;
+// const { APIKEY } = process.env;
 
 export async function searchMovie(title, page) {
   const resultQuery = await (await fetch(`http://www.omdbapi.com/?s=${title}&apikey=${APIKEY}&page=${page}`)).json();
