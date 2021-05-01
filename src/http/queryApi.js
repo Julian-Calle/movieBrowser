@@ -7,7 +7,7 @@ export async function searchMovie(title, page) {
 }
 
 export async function detailsMovie(idDeIMDB) {
-  const resultQuery = await (await fetch(`http://www.omdbapi.com/?i=${idDeIMDB}&apikey=${APP_APIKEY}`)).json();
+  const resultQuery = await (await fetch(`http://www.omdbapi.com/?i=${idDeIMDB}&apikey=${APIKEY}`)).json();
 
   return resultQuery;
 }
