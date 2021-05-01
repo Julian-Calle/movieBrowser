@@ -1,10 +1,10 @@
-import { BrowserRouter as Router, Switch, Route, Link, useRouteMatch, useParams } from 'react-router-dom';
+import { BrowserRouter as Link, useParams } from 'react-router-dom';
 import { detailsMovie } from '../http/queryApi';
 import { useState, useEffect } from 'react';
 import './details.css';
 function Details() {
   const [infoMovie, setInfoMovie] = useState({});
-  const match = useRouteMatch();
+  // const match = useRouteMatch();
 
   let { imdbID } = useParams();
   console.log(infoMovie);
