@@ -1,4 +1,4 @@
-import { BrowserRouter as Link, useParams } from 'react-router-dom';
+import { Link, useParams } from 'react-router-dom';
 import { detailsMovie } from '../http/queryApi';
 import { useState, useEffect } from 'react';
 import './details.css';
@@ -16,12 +16,11 @@ function Details() {
     };
     getInfoMovie();
   }, []);
-  // Genre
 
   return (
     <div className="detailsContainer">
       <Link className="detailsLink" to="/search">
-        Volver a busqueda
+        <i className="fa fa-arrow-circle-left fa-lg"></i> Volver
       </Link>
       <div className="detailsView">
         <div className="posterDetails">
@@ -55,7 +54,7 @@ function Details() {
         </div>
       </div>
       <Link className="detailsLink" to="/search">
-        Volver a busqueda
+        <i className="fa fa-arrow-circle-left fa-lg"></i> Volver
       </Link>
     </div>
   );

@@ -4,10 +4,6 @@
     box-sizing: border-box;
     }
     
-
-    /* ul.navigationBar {
-    padding-bottom: 10rem;
-} */
 .test{
     position: sticky;
     top:0;
@@ -22,10 +18,7 @@
     }
     
 .navigationBar{
-/* position: fixed;
-top: 0;
-width: 100%;
-z-index: 1; */
+
 display:flex;
 list-style-type: none;
 background-color: rebeccapurple;

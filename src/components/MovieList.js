@@ -2,14 +2,13 @@ import { useHistory } from 'react-router-dom';
 import './movieList.css';
 function MovieList(props) {
   const { movies } = props;
-  const movieInfo = props.movieDetails;
 
   const history = useHistory();
   function movieDetails(imdbID) {
     console.log('Detalles');
     history.push(`/details/${imdbID}`);
   }
-  // onClick={movieInfo}
+
   return (
     <div className="listMovies">
       {movies &&

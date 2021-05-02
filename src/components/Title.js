@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import './Title.css';
+
 function Title() {
   return (
     <nav>

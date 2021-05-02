@@ -5,16 +5,23 @@
     }
 
 .detailsContainer a{
-    color:blue;
+    color:rgb(0, 25, 95);
     font-weight: 800;
     margin-left: 3rem;
+    padding-bottom: 1rem;
+   
 }    
 .posterDetails > h1{
     margin-top: 0.5rem;
     text-align: center;
   
 }
+.detailsLink{
+text-decoration: none;
+font-style: italic;
+font-size: 1.2rem;
 
+}
 .posterDetails{
     display: flex;
     flex-direction: column;
@@ -32,6 +39,7 @@
     flex-direction: column;
     margin-left: 1rem;
     margin-right: 1rem;
+
 
 }
 
