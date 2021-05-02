@@ -12,7 +12,7 @@ function Home() {
 
         <p>
           Es muy simple va a la sección "Search" y podras buscar películas por su título. Vamos que la mecánica es
-          fácil. Este esta es una prueba del primer uso de ReactJS. En este ejemplo se han implemtentado los hooks
+          fácil. Este esta es una prueba del primer uso de ReactJS. En este ejemplo se han implemententado los hooks
           básicos (useState y useEffect). Como fuente información se uso la API de películas y series{' '}
           <a href="http://www.omdbapi.com/">omdbapi</a>
         </p>
